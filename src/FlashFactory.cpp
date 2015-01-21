@@ -31,6 +31,7 @@
 #include "EfcFlash.h"
 #include "EefcFlash.h" 
 #include "NvmFlash.h"
+#include "FlashCALW.h"
 
 FlashFactory::FlashFactory()
 {
@@ -47,6 +48,12 @@ FlashFactory::create(Samba& samba, uint32_t chipId)
 
     switch (chipId)
     {
+    //
+    // SAM4L
+    //
+    case 0xAB0B0AE0:
+        flash = new FlashCALW(samba, "ATSAM4LC8C", 0x0, 1024, 512, 1, 16, 0x800000, 0x20000000, true);
+        break;
     //
     // SAMD21
     //

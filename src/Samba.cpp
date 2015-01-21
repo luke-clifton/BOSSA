@@ -147,6 +147,10 @@ Samba::init()
     {
         return true;
     }
+    else if (cid == 0xab0b0ae0)
+    {
+        return true;
+    }
     else
     {
         if (_debug)
