@@ -1,0 +1,760 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+ACK	Samba.cpp	43;"	d	file:
+ARRAY_SIZE	bossash.cpp	38;"	d	file:
+AboutDialog	BossaForm.cpp	/^AboutDialog::AboutDialog( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxDialog( parent, id, title, pos, size, style )$/;"	f	class:AboutDialog
+AboutDialog	BossaForm.h	/^class AboutDialog : public wxDialog $/;"	c
+Applet	Applet.cpp	/^Applet::Applet(Samba& samba,$/;"	f	class:Applet
+Applet	Applet.h	/^class Applet$/;"	c
+ArgHas	CmdOpts.h	/^} ArgHas;$/;"	t	typeref:enum:__anon1
+ArgInt	CmdOpts.h	/^    ArgInt,$/;"	e	enum:__anon2
+ArgNone	CmdOpts.h	/^    ArgNone,$/;"	e	enum:__anon1
+ArgOptional	CmdOpts.h	/^    ArgOptional,$/;"	e	enum:__anon1
+ArgRequired	CmdOpts.h	/^    ArgRequired$/;"	e	enum:__anon1
+ArgString	CmdOpts.h	/^    ArgString$/;"	e	enum:__anon2
+ArgType	CmdOpts.h	/^} ArgType;$/;"	t	typeref:enum:__anon2
+B460800	PosixSerialPort.cpp	42;"	d	file:
+B921600	PosixSerialPort.cpp	45;"	d	file:
+BLK_SIZE	Samba.cpp	39;"	d	file:
+BOSSAICON_BMP_H	BossaIcon.cpp	2;"	d	file:
+BOSSALOGO_BMP_H	BossaLogo.cpp	2;"	d	file:
+BossaAbout	BossaAbout.cpp	/^BossaAbout::BossaAbout(wxWindow* parent) : AboutDialog(parent)$/;"	f	class:BossaAbout
+BossaAbout	BossaAbout.h	/^class BossaAbout : public AboutDialog$/;"	c
+BossaApp	BossaApp.cpp	/^BossaApp::BossaApp() : config("Bossa")$/;"	f	class:BossaApp
+BossaApp	BossaApp.h	/^class BossaApp : public wxApp$/;"	c
+BossaBitmaps	BossaBitmaps.cpp	/^BossaBitmaps::BossaBitmaps()$/;"	f	class:BossaBitmaps
+BossaBitmaps	BossaBitmaps.h	/^class BossaBitmaps$/;"	c
+BossaConfig	bossac.cpp	/^BossaConfig::BossaConfig()$/;"	f	class:BossaConfig
+BossaConfig	bossac.cpp	/^class BossaConfig$/;"	c	file:
+BossaIcon_bmp	BossaIcon.cpp	/^static unsigned char BossaIcon_bmp[] = {$/;"	v	file:
+BossaInfo	BossaInfo.cpp	/^BossaInfo::BossaInfo(wxWindow* parent) : InfoDialog(parent)$/;"	f	class:BossaInfo
+BossaInfo	BossaInfo.h	/^class BossaInfo : public InfoDialog$/;"	c
+BossaLogo_bmp	BossaLogo.cpp	/^static unsigned char BossaLogo_bmp[] = {$/;"	v	file:
+BossaProgress	BossaProgress.cpp	/^BossaProgress::BossaProgress(wxWindow* parent) : ProgressDialog(parent), _parent(parent)$/;"	f	class:BossaProgress
+BossaProgress	BossaProgress.h	/^class BossaProgress : public ProgressDialog$/;"	c
+BossaThread	BossaThread.cpp	/^BossaThread::BossaThread(wxEvtHandler* parent) : wxThread(), _parent(parent), _stopped(false)$/;"	f	class:BossaThread
+BossaThread	BossaThread.h	/^class BossaThread : public wxThread$/;"	c
+BossaWindow	BossaWindow.cpp	/^BossaWindow::BossaWindow() : MainFrame(NULL)$/;"	f	class:BossaWindow
+BossaWindow	BossaWindow.h	/^class BossaWindow : public MainFrame$/;"	c
+CAN	Samba.cpp	45;"	d	file:
+CM_Open_DevNode_Key	WinPortFactory.h	/^    typedef DWORD WINAPI (*CM_Open_DevNode_Key)(DWORD, DWORD, DWORD, DWORD, ::PHKEY, DWORD);$/;"	t	class:WinPortFactory
+CmdOpts	CmdOpts.cpp	/^CmdOpts::CmdOpts(int argc, char* argv[], int numOpts, Option* opts) :$/;"	f	class:CmdOpts
+CmdOpts	CmdOpts.h	/^class CmdOpts$/;"	c
+Command	Command.cpp	/^Command::Command(const char* name, const char* help, const char* usage) :$/;"	f	class:Command
+Command	Command.h	/^class Command$/;"	c
+CommandBod	Command.cpp	/^CommandBod::CommandBod() :$/;"	f	class:CommandBod
+CommandBod	Command.h	/^class CommandBod : public Command$/;"	c
+CommandBootf	Command.cpp	/^CommandBootf::CommandBootf() :$/;"	f	class:CommandBootf
+CommandBootf	Command.h	/^class CommandBootf : public Command$/;"	c
+CommandBor	Command.cpp	/^CommandBor::CommandBor() :$/;"	f	class:CommandBor
+CommandBor	Command.h	/^class CommandBor : public Command$/;"	c
+CommandConnect	Command.cpp	/^CommandConnect::CommandConnect() :$/;"	f	class:CommandConnect
+CommandConnect	Command.h	/^class CommandConnect : public Command$/;"	c
+CommandDebug	Command.cpp	/^CommandDebug::CommandDebug() :$/;"	f	class:CommandDebug
+CommandDebug	Command.h	/^class CommandDebug : public Command$/;"	c
+CommandDump	Command.cpp	/^CommandDump::CommandDump() :$/;"	f	class:CommandDump
+CommandDump	Command.h	/^class CommandDump : public Command$/;"	c
+CommandErase	Command.cpp	/^CommandErase::CommandErase() :$/;"	f	class:CommandErase
+CommandErase	Command.h	/^class CommandErase : public Command$/;"	c
+CommandExit	Command.cpp	/^CommandExit::CommandExit() :$/;"	f	class:CommandExit
+CommandExit	Command.h	/^class CommandExit : public Command$/;"	c
+CommandGo	Command.cpp	/^CommandGo::CommandGo() :$/;"	f	class:CommandGo
+CommandGo	Command.h	/^class CommandGo : public Command$/;"	c
+CommandHelp	Command.cpp	/^CommandHelp::CommandHelp() :$/;"	f	class:CommandHelp
+CommandHelp	Command.h	/^class CommandHelp : public Command$/;"	c
+CommandHistory	Command.cpp	/^CommandHistory::CommandHistory() :$/;"	f	class:CommandHistory
+CommandHistory	Command.h	/^class CommandHistory : public Command$/;"	c
+CommandInfo	Command.cpp	/^CommandInfo::CommandInfo() :$/;"	f	class:CommandInfo
+CommandInfo	Command.h	/^class CommandInfo : public Command$/;"	c
+CommandList	Shell.h	/^    typedef std::list<Command*> CommandList;$/;"	t	class:Shell
+CommandLock	Command.cpp	/^CommandLock::CommandLock() :$/;"	f	class:CommandLock
+CommandLock	Command.h	/^class CommandLock : public Command$/;"	c
+CommandMrb	Command.cpp	/^CommandMrb::CommandMrb() :$/;"	f	class:CommandMrb
+CommandMrb	Command.h	/^class CommandMrb : public Command$/;"	c
+CommandMrf	Command.cpp	/^CommandMrf::CommandMrf() :$/;"	f	class:CommandMrf
+CommandMrf	Command.h	/^class CommandMrf : public Command$/;"	c
+CommandMrw	Command.cpp	/^CommandMrw::CommandMrw() :$/;"	f	class:CommandMrw
+CommandMrw	Command.h	/^class CommandMrw : public Command$/;"	c
+CommandMwb	Command.cpp	/^CommandMwb::CommandMwb() :$/;"	f	class:CommandMwb
+CommandMwb	Command.h	/^class CommandMwb : public Command$/;"	c
+CommandMwf	Command.cpp	/^CommandMwf::CommandMwf() :$/;"	f	class:CommandMwf
+CommandMwf	Command.h	/^class CommandMwf : public Command$/;"	c
+CommandMww	Command.cpp	/^CommandMww::CommandMww() :$/;"	f	class:CommandMww
+CommandMww	Command.h	/^class CommandMww : public Command$/;"	c
+CommandPio	Command.cpp	/^CommandPio::CommandPio() :$/;"	f	class:CommandPio
+CommandPio	Command.h	/^class CommandPio : public Command$/;"	c
+CommandRead	Command.cpp	/^CommandRead::CommandRead() :$/;"	f	class:CommandRead
+CommandRead	Command.h	/^class CommandRead : public Command$/;"	c
+CommandScan	Command.cpp	/^CommandScan::CommandScan() :$/;"	f	class:CommandScan
+CommandScan	Command.h	/^class CommandScan : public Command$/;"	c
+CommandSecurity	Command.cpp	/^CommandSecurity::CommandSecurity() :$/;"	f	class:CommandSecurity
+CommandSecurity	Command.h	/^class CommandSecurity : public Command$/;"	c
+CommandUnlock	Command.cpp	/^CommandUnlock::CommandUnlock() :$/;"	f	class:CommandUnlock
+CommandUnlock	Command.h	/^class CommandUnlock : public Command$/;"	c
+CommandVerify	Command.cpp	/^CommandVerify::CommandVerify() :$/;"	f	class:CommandVerify
+CommandVerify	Command.h	/^class CommandVerify : public Command$/;"	c
+CommandWrite	Command.cpp	/^CommandWrite::CommandWrite() :$/;"	f	class:CommandWrite
+CommandWrite	Command.h	/^class CommandWrite : public Command$/;"	c
+Connected	BossaWindow.cpp	/^BossaWindow::Connected()$/;"	f	class:BossaWindow
+CreateFlash	BossaWindow.cpp	/^BossaWindow::CreateFlash()$/;"	f	class:BossaWindow
+Disconnected	BossaWindow.cpp	/^BossaWindow::Disconnected()$/;"	f	class:BossaWindow
+Driver	Driver.h	/^typedef WinDriver Driver;$/;"	t
+DriverBase	Driver.h	/^    DriverBase() {}$/;"	f	class:DriverBase
+DriverBase	Driver.h	/^class DriverBase$/;"	c
+EEFC0_FCR	EefcFlash.cpp	38;"	d	file:
+EEFC0_FMR	EefcFlash.cpp	37;"	d	file:
+EEFC0_FRR	EefcFlash.cpp	40;"	d	file:
+EEFC0_FSR	EefcFlash.cpp	39;"	d	file:
+EEFC1_FCR	EefcFlash.cpp	43;"	d	file:
+EEFC1_FMR	EefcFlash.cpp	42;"	d	file:
+EEFC1_FRR	EefcFlash.cpp	45;"	d	file:
+EEFC1_FSR	EefcFlash.cpp	44;"	d	file:
+EEFC_FCMD_CGPB	EefcFlash.cpp	57;"	d	file:
+EEFC_FCMD_CLB	EefcFlash.cpp	54;"	d	file:
+EEFC_FCMD_EA	EefcFlash.cpp	52;"	d	file:
+EEFC_FCMD_EWP	EefcFlash.cpp	50;"	d	file:
+EEFC_FCMD_EWPL	EefcFlash.cpp	51;"	d	file:
+EEFC_FCMD_GETD	EefcFlash.cpp	47;"	d	file:
+EEFC_FCMD_GGPB	EefcFlash.cpp	58;"	d	file:
+EEFC_FCMD_GLB	EefcFlash.cpp	55;"	d	file:
+EEFC_FCMD_SGPB	EefcFlash.cpp	56;"	d	file:
+EEFC_FCMD_SLB	EefcFlash.cpp	53;"	d	file:
+EEFC_FCMD_WP	EefcFlash.cpp	48;"	d	file:
+EEFC_FCMD_WPL	EefcFlash.cpp	49;"	d	file:
+EEFC_KEY	EefcFlash.cpp	35;"	d	file:
+EFC0_FCR	EfcFlash.cpp	38;"	d	file:
+EFC0_FMR	EfcFlash.cpp	37;"	d	file:
+EFC0_FSR	EfcFlash.cpp	39;"	d	file:
+EFC1_FCR	EfcFlash.cpp	42;"	d	file:
+EFC1_FMR	EfcFlash.cpp	41;"	d	file:
+EFC1_FSR	EfcFlash.cpp	43;"	d	file:
+EFC_FCMD_CGPB	EfcFlash.cpp	51;"	d	file:
+EFC_FCMD_CLB	EfcFlash.cpp	48;"	d	file:
+EFC_FCMD_EA	EfcFlash.cpp	49;"	d	file:
+EFC_FCMD_SGPB	EfcFlash.cpp	50;"	d	file:
+EFC_FCMD_SLB	EfcFlash.cpp	46;"	d	file:
+EFC_FCMD_SSB	EfcFlash.cpp	52;"	d	file:
+EFC_FCMD_WP	EfcFlash.cpp	45;"	d	file:
+EFC_FCMD_WPL	EfcFlash.cpp	47;"	d	file:
+EFC_KEY	EfcFlash.cpp	35;"	d	file:
+EOT	Samba.cpp	42;"	d	file:
+EefcFlash	EefcFlash.cpp	/^EefcFlash::EefcFlash(Samba& samba,$/;"	f	class:EefcFlash
+EefcFlash	EefcFlash.h	/^class EefcFlash : public Flash$/;"	c
+EfcFlash	EfcFlash.cpp	/^EfcFlash::EfcFlash(Samba& samba,$/;"	f	class:EfcFlash
+EfcFlash	EfcFlash.h	/^class EfcFlash : public Flash$/;"	c
+Entry	BossaThread.cpp	/^ReadThread::Entry()$/;"	f	class:ReadThread
+Entry	BossaThread.cpp	/^VerifyThread::Entry()$/;"	f	class:VerifyThread
+Entry	BossaThread.cpp	/^WriteThread::Entry()$/;"	f	class:WriteThread
+Error	BossaThread.cpp	/^BossaThread::Error(const wxString& message)$/;"	f	class:BossaThread
+Error	BossaWindow.cpp	/^BossaWindow::Error(const wxString& message)$/;"	f	class:BossaWindow
+FileError	FileError.h	/^    FileError() : std::exception() {}$/;"	f	class:FileError
+FileError	FileError.h	/^class FileError : public std::exception$/;"	c
+FileIoError	BossaThread.cpp	/^    FileIoError() : exception() {};$/;"	f	class:FileIoError
+FileIoError	BossaThread.cpp	/^class FileIoError : public exception$/;"	c	file:
+FileIoError	FileError.h	/^    FileIoError(int errnum) : FileError(), _errnum(errnum) {};$/;"	f	class:FileIoError
+FileIoError	FileError.h	/^class FileIoError : public FileError$/;"	c
+FileOpenError	BossaThread.cpp	/^    FileOpenError() : exception() {};$/;"	f	class:FileOpenError
+FileOpenError	BossaThread.cpp	/^class FileOpenError : public exception$/;"	c	file:
+FileOpenError	FileError.h	/^    FileOpenError(int errnum) : FileError(), _errnum(errnum) {};$/;"	f	class:FileOpenError
+FileOpenError	FileError.h	/^class FileOpenError : public FileError$/;"	c
+FileShortError	FileError.h	/^    FileShortError() : FileError() {};$/;"	f	class:FileShortError
+FileShortError	FileError.h	/^class FileShortError : public FileError$/;"	c
+FileSizeError	BossaThread.cpp	/^    FileSizeError() : exception() {};$/;"	f	class:FileSizeError
+FileSizeError	BossaThread.cpp	/^class FileSizeError : public exception$/;"	c	file:
+FileSizeError	Flasher.h	/^    FileSizeError() : FileError() {};$/;"	f	class:FileSizeError
+FileSizeError	Flasher.h	/^class FileSizeError : public FileError$/;"	c
+Flash	Flash.cpp	/^Flash::Flash(Samba& samba,$/;"	f	class:Flash
+Flash	Flash.h	/^class Flash$/;"	c
+FlashCmdError	Flash.h	/^    FlashCmdError() : exception() {};$/;"	f	class:FlashCmdError
+FlashCmdError	Flash.h	/^class FlashCmdError : public std::exception$/;"	c
+FlashFactory	FlashFactory.cpp	/^FlashFactory::FlashFactory()$/;"	f	class:FlashFactory
+FlashFactory	FlashFactory.h	/^class FlashFactory$/;"	c
+FlashLockError	Flash.h	/^    FlashLockError() : exception() {};$/;"	f	class:FlashLockError
+FlashLockError	Flash.h	/^class FlashLockError : public std::exception$/;"	c
+FlashPageError	Flash.h	/^    FlashPageError() : exception() {};$/;"	f	class:FlashPageError
+FlashPageError	Flash.h	/^class FlashPageError : public std::exception$/;"	c
+FlashRegionError	Flash.h	/^    FlashRegionError() : exception() {};$/;"	f	class:FlashRegionError
+FlashRegionError	Flash.h	/^class FlashRegionError : public std::exception$/;"	c
+Flasher	Flasher.h	/^    Flasher(Flash::Ptr& flash) : _flash(flash) {}$/;"	f	class:Flasher
+Flasher	Flasher.h	/^class Flasher$/;"	c
+GetBitmapFromMemory	BossaBitmaps.cpp	/^BossaBitmaps::GetBitmapFromMemory(const unsigned char *data, int length)$/;"	f	class:BossaBitmaps
+Info	BossaWindow.cpp	/^BossaWindow::Info(const wxString& message)$/;"	f	class:BossaWindow
+InfoDialog	BossaForm.cpp	/^InfoDialog::InfoDialog( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxDialog( parent, id, title, pos, size, style )$/;"	f	class:InfoDialog
+InfoDialog	BossaForm.h	/^class InfoDialog : public wxDialog $/;"	c
+LinuxPortFactory	LinuxPortFactory.cpp	/^LinuxPortFactory::LinuxPortFactory()$/;"	f	class:LinuxPortFactory
+LinuxPortFactory	LinuxPortFactory.h	/^class LinuxPortFactory$/;"	c
+MAX_RETRIES	Samba.cpp	40;"	d	file:
+MainFrame	BossaForm.cpp	/^MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxFrame( parent, id, title, pos, size, style )$/;"	f	class:MainFrame
+MainFrame	BossaForm.h	/^class MainFrame : public wxFrame $/;"	c
+NAK	Samba.cpp	44;"	d	file:
+OSXPortFactory	OSXPortFactory.cpp	/^OSXPortFactory::OSXPortFactory()$/;"	f	class:OSXPortFactory
+OSXPortFactory	OSXPortFactory.h	/^class OSXPortFactory$/;"	c
+OnAbout	BossaWindow.cpp	/^BossaWindow::OnAbout(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnAutoScan	BossaWindow.cpp	/^BossaWindow::OnAutoScan(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnCancel	BossaProgress.cpp	/^BossaProgress::OnCancel(wxCommandEvent& event)$/;"	f	class:BossaProgress
+OnExit	BossaWindow.cpp	/^BossaWindow::OnExit(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnInfo	BossaWindow.cpp	/^BossaWindow::OnInfo(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnInit	BossaApp.cpp	/^BossaApp::OnInit()$/;"	f	class:BossaApp
+OnProgressCancel	BossaWindow.cpp	/^BossaWindow::OnProgressCancel(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnRead	BossaWindow.cpp	/^BossaWindow::OnRead(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnRefresh	BossaWindow.cpp	/^BossaWindow::OnRefresh(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnSerial	BossaWindow.cpp	/^BossaWindow::OnSerial(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnThreadError	BossaWindow.cpp	/^BossaWindow::OnThreadError(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnThreadProgress	BossaWindow.cpp	/^BossaWindow::OnThreadProgress(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnThreadSuccess	BossaWindow.cpp	/^BossaWindow::OnThreadSuccess(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnThreadWarning	BossaWindow.cpp	/^BossaWindow::OnThreadWarning(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnVerify	BossaWindow.cpp	/^BossaWindow::OnVerify(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OnWrite	BossaWindow.cpp	/^BossaWindow::OnWrite(wxCommandEvent& event)$/;"	f	class:BossaWindow
+OptArg	CmdOpts.h	/^} OptArg;$/;"	t	typeref:struct:__anon3
+Option	CmdOpts.h	/^} Option;$/;"	t	typeref:struct:__anon5
+Parity	SerialPort.h	/^    enum Parity$/;"	g	class:SerialPort
+ParityEven	SerialPort.h	/^        ParityEven,$/;"	e	enum:SerialPort::Parity
+ParityNone	SerialPort.h	/^        ParityNone,$/;"	e	enum:SerialPort::Parity
+ParityOdd	SerialPort.h	/^        ParityOdd,$/;"	e	enum:SerialPort::Parity
+PortFactory	PortFactory.h	/^typedef LinuxPortFactory PortFactory;$/;"	t
+PortFactory	PortFactory.h	/^typedef OSXPortFactory PortFactory;$/;"	t
+PortFactory	PortFactory.h	/^typedef WinPortFactory PortFactory;$/;"	t
+PortFactoryBase	PortFactory.h	/^    PortFactoryBase() {}$/;"	f	class:PortFactoryBase
+PortFactoryBase	PortFactory.h	/^class PortFactoryBase$/;"	c
+PosixSerialPort	PosixSerialPort.cpp	/^PosixSerialPort::PosixSerialPort(const std::string& name, bool isUsb) :$/;"	f	class:PosixSerialPort
+PosixSerialPort	PosixSerialPort.h	/^class PosixSerialPort : public SerialPort$/;"	c
+Progress	BossaThread.cpp	/^BossaThread::Progress(const wxString& message, int pos)$/;"	f	class:BossaThread
+ProgressDialog	BossaForm.cpp	/^ProgressDialog::ProgressDialog( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxDialog( parent, id, title, pos, size, style )$/;"	f	class:ProgressDialog
+ProgressDialog	BossaForm.h	/^class ProgressDialog : public wxDialog $/;"	c
+Ptr	Flash.h	/^    typedef std::auto_ptr<Flash> Ptr;$/;"	t	class:Flash
+Ptr	SerialPort.h	/^    typedef std::auto_ptr<SerialPort> Ptr;$/;"	t	class:SerialPort
+Question	BossaWindow.cpp	/^BossaWindow::Question(const wxString& message)$/;"	f	class:BossaWindow
+ReadThread	BossaThread.cpp	/^ReadThread::ReadThread(wxEvtHandler* parent, const wxString& filename, size_t size) :$/;"	f	class:ReadThread
+ReadThread	BossaThread.h	/^class ReadThread : public BossaThread$/;"	c
+RefreshSerial	BossaWindow.cpp	/^BossaWindow::RefreshSerial()$/;"	f	class:BossaWindow
+SHUMATECHLOGO_BMP_H	ShumaTechLogo.cpp	2;"	d	file:
+SOH	Samba.cpp	41;"	d	file:
+START	Samba.cpp	46;"	d	file:
+Samba	Samba.cpp	/^Samba::Samba() : _debug(false), _isUsb(false)$/;"	f	class:Samba
+Samba	Samba.h	/^class Samba$/;"	c
+SambaError	Samba.h	/^    SambaError() : exception() {};$/;"	f	class:SambaError
+SambaError	Samba.h	/^class SambaError : public std::exception$/;"	c
+SerialPort	SerialPort.h	/^    SerialPort(const std::string& name) : _name(name) {}$/;"	f	class:SerialPort
+SerialPort	SerialPort.h	/^class SerialPort$/;"	c
+SetLabel	BossaProgress.cpp	/^BossaProgress::SetLabel(const wxString& label)$/;"	f	class:BossaProgress
+SetValue	BossaProgress.cpp	/^BossaProgress::SetValue(int pos)$/;"	f	class:BossaProgress
+Shell	Shell.cpp	/^Shell::Shell() :$/;"	f	class:Shell
+Shell	Shell.h	/^class Shell$/;"	c
+ShumaTechLogo_bmp	ShumaTechLogo.cpp	/^static unsigned char ShumaTechLogo_bmp[] = {$/;"	v	file:
+StopBit	SerialPort.h	/^    enum StopBit$/;"	g	class:SerialPort
+StopBitOne	SerialPort.h	/^        StopBitOne,$/;"	e	enum:SerialPort::StopBit
+StopBitOneFive	SerialPort.h	/^        StopBitOneFive,$/;"	e	enum:SerialPort::StopBit
+StopBitTwo	SerialPort.h	/^        StopBitTwo,$/;"	e	enum:SerialPort::StopBit
+Success	BossaThread.cpp	/^BossaThread::Success(const wxString& message)$/;"	f	class:BossaThread
+TIMEOUT_NORMAL	Samba.cpp	49;"	d	file:
+TIMEOUT_QUICK	Samba.cpp	48;"	d	file:
+USB_DEVICE_NAME	WinPortFactory.cpp	32;"	d	file:
+VerifyThread	BossaThread.cpp	/^VerifyThread::VerifyThread(wxEvtHandler* parent, const wxString& filename) :$/;"	f	class:VerifyThread
+VerifyThread	BossaThread.h	/^class VerifyThread : public BossaThread$/;"	c
+Warning	BossaThread.cpp	/^BossaThread::Warning(const wxString& message)$/;"	f	class:BossaThread
+Warning	BossaWindow.cpp	/^BossaWindow::Warning(const wxString& message)$/;"	f	class:BossaWindow
+WinPortFactory	WinPortFactory.cpp	/^WinPortFactory::WinPortFactory() :$/;"	f	class:WinPortFactory
+WinPortFactory	WinPortFactory.h	/^class WinPortFactory : public PortFactoryBase$/;"	c
+WinSerialPort	WinSerialPort.cpp	/^WinSerialPort::WinSerialPort(const std::string& name, bool isUsb) :$/;"	f	class:WinSerialPort
+WinSerialPort	WinSerialPort.h	/^class WinSerialPort : public SerialPort$/;"	c
+WordCopyApplet	WordCopyApplet.cpp	/^WordCopyApplet::WordCopyApplet(Samba& samba, uint32_t addr)$/;"	f	class:WordCopyApplet
+WordCopyApplet	WordCopyApplet.h	/^class WordCopyApplet : public Applet$/;"	c
+WordCopyArm	WordCopyArm.h	/^} WordCopyArm;$/;"	t	typeref:struct:__anon6
+WriteThread	BossaThread.cpp	/^WriteThread::WriteThread(wxEvtHandler* parent,$/;"	f	class:WriteThread
+WriteThread	BossaThread.h	/^class WriteThread : public BossaThread$/;"	c
+_APPLET_H	Applet.h	30;"	d
+_BOSSAABOUT_H	BossaAbout.h	30;"	d
+_BOSSAAPP_H	BossaApp.h	30;"	d
+_BOSSABITMAPS_H	BossaBitmaps.h	30;"	d
+_BOSSAINFO_H	BossaInfo.h	30;"	d
+_BOSSAPROGRESS_H	BossaProgress.h	30;"	d
+_BOSSATHREAD_H	BossaThread.h	30;"	d
+_BOSSAWINDOW_H	BossaWindow.h	30;"	d
+_COMMAND_H	Command.h	30;"	d
+_DRIVER_H	Driver.h	30;"	d
+_EEFCFLASH_H	EefcFlash.h	30;"	d
+_EFCFLASH_H	EfcFlash.h	30;"	d
+_FILEERROR_H	FileError.h	30;"	d
+_FLASHER_H	Flasher.h	30;"	d
+_FLASHFACTORY_H	FlashFactory.h	30;"	d
+_FLASH_H	Flash.h	30;"	d
+_LINUXPORTFACTORY_H	LinuxPortFactory.h	30;"	d
+_OPTION_H	CmdOpts.h	30;"	d
+_OSXPORTFACTORY_H	OSXPortFactory.h	30;"	d
+_PORTFACTORY_H	PortFactory.h	30;"	d
+_POSIXSERIALPORT_H	PosixSerialPort.h	30;"	d
+_SAMBA_H	Samba.h	30;"	d
+_SERIALPORT_H	SerialPort.h	30;"	d
+_Shell_H	Shell.h	30;"	d
+_WINPORTFACTORY_H	WinPortFactory.h	30;"	d
+_WINSERIALPORT_H	WinSerialPort.h	30;"	d
+_WORDCOPYAPPLET_H	WordCopyApplet.h	30;"	d
+_WORDCOPYARM_H	WordCopyArm.h	3;"	d
+__BossaForm__	BossaForm.h	9;"	d
+__STDC_LIMIT_MACROS	Command.cpp	29;"	d	file:
+_aboutButton	BossaForm.h	/^		wxButton* _aboutButton;$/;"	m	class:MainFrame
+_addr	Applet.h	/^    uint32_t _addr;$/;"	m	class:Applet
+_addr	Flash.h	/^    uint32_t _addr;$/;"	m	class:Flash
+_argc	CmdOpts.h	/^    int _argc;$/;"	m	class:CmdOpts
+_argv	CmdOpts.h	/^    char** _argv;$/;"	m	class:CmdOpts
+_autoScanButton	BossaForm.h	/^		wxButton* _autoScanButton;$/;"	m	class:MainFrame
+_bod	BossaThread.h	/^    bool _bod;$/;"	m	class:WriteThread
+_bodCheckBox	BossaForm.h	/^		wxCheckBox* _bodCheckBox;$/;"	m	class:InfoDialog
+_bodCheckBox	BossaForm.h	/^		wxCheckBox* _bodCheckBox;$/;"	m	class:MainFrame
+_bootCheckBox	BossaForm.h	/^		wxCheckBox* _bootCheckBox;$/;"	m	class:InfoDialog
+_bootCheckBox	BossaForm.h	/^		wxCheckBox* _bootCheckBox;$/;"	m	class:MainFrame
+_bootFlash	BossaThread.h	/^    bool _bootFlash;$/;"	m	class:WriteThread
+_bor	BossaThread.h	/^    bool _bor;$/;"	m	class:WriteThread
+_borCheckBox	BossaForm.h	/^		wxCheckBox* _borCheckBox;$/;"	m	class:InfoDialog
+_borCheckBox	BossaForm.h	/^		wxCheckBox* _borCheckBox;$/;"	m	class:MainFrame
+_bossaBitmap	BossaForm.h	/^		wxStaticBitmap* _bossaBitmap;$/;"	m	class:AboutDialog
+_bossaBitmap	BossaForm.h	/^		wxStaticBitmap* _bossaBitmap;$/;"	m	class:MainFrame
+_bossaIcon	BossaBitmaps.h	/^    wxBitmap _bossaIcon;$/;"	m	class:BossaBitmaps
+_bossaLogo	BossaBitmaps.h	/^    wxBitmap _bossaLogo;$/;"	m	class:BossaBitmaps
+_canBootFlash	EfcFlash.h	/^    bool _canBootFlash;$/;"	m	class:EfcFlash
+_canBrownout	EefcFlash.h	/^    bool _canBrownout;$/;"	m	class:EefcFlash
+_cfgMgr	WinPortFactory.h	/^    HINSTANCE _cfgMgr;$/;"	m	class:WinPortFactory
+_chipIdStaticText	BossaForm.h	/^		wxStaticText* _chipIdStaticText;$/;"	m	class:InfoDialog
+_chipIdTextCtrl	BossaForm.h	/^		wxTextCtrl* _chipIdTextCtrl;$/;"	m	class:InfoDialog
+_commandList	Shell.h	/^    CommandList _commandList;$/;"	m	class:Shell
+_connected	Command.cpp	/^bool Command::_connected = false;$/;"	m	class:Command	file:
+_connected	Command.h	/^    static bool _connected;$/;"	m	class:Command
+_copyrightStaticText	BossaForm.h	/^		wxStaticText* _copyrightStaticText;$/;"	m	class:AboutDialog
+_debug	Samba.h	/^    bool _debug;$/;"	m	class:Samba
+_devInfo	WinPortFactory.h	/^    HDEVINFO _devInfo;$/;"	m	class:WinPortFactory
+_devNode	WinPortFactory.h	/^    CM_Open_DevNode_Key _devNode;$/;"	m	class:WinPortFactory
+_devNum	WinPortFactory.h	/^    int _devNum;$/;"	m	class:WinPortFactory
+_devfd	PosixSerialPort.h	/^    int _devfd;$/;"	m	class:PosixSerialPort
+_deviceStaticText	BossaForm.h	/^		wxStaticText* _deviceStaticText;$/;"	m	class:InfoDialog
+_deviceTextCtrl	BossaForm.h	/^		wxTextCtrl* _deviceTextCtrl;$/;"	m	class:InfoDialog
+_dir	LinuxPortFactory.h	/^    DIR* _dir;$/;"	m	class:LinuxPortFactory
+_dir	OSXPortFactory.h	/^    DIR* _dir;$/;"	m	class:OSXPortFactory
+_empty	LinuxPortFactory.h	/^    std::string _empty;$/;"	m	class:LinuxPortFactory
+_empty	OSXPortFactory.h	/^    std::string _empty;$/;"	m	class:OSXPortFactory
+_eraseAll	BossaThread.h	/^    bool _eraseAll;$/;"	m	class:WriteThread
+_eraseAuto	EefcFlash.h	/^    bool _eraseAuto;$/;"	m	class:EefcFlash
+_eraseCheckBox	BossaForm.h	/^		wxCheckBox* _eraseCheckBox;$/;"	m	class:MainFrame
+_errnum	FileError.h	/^    int _errnum;$/;"	m	class:FileIoError
+_errnum	FileError.h	/^    int _errnum;$/;"	m	class:FileOpenError
+_exitButton	BossaForm.h	/^		wxButton* _exitButton;$/;"	m	class:MainFrame
+_exitFlag	Shell.h	/^    bool _exitFlag;$/;"	m	class:Shell
+_filePicker	BossaForm.h	/^		wxFilePickerCtrl* _filePicker;$/;"	m	class:MainFrame
+_filename	BossaThread.h	/^    wxString _filename;$/;"	m	class:ReadThread
+_filename	BossaThread.h	/^    wxString _filename;$/;"	m	class:VerifyThread
+_filename	BossaThread.h	/^    wxString _filename;$/;"	m	class:WriteThread
+_flash	Command.cpp	/^Flash::Ptr Command::_flash;$/;"	m	class:Command	file:
+_flash	Command.h	/^    static Flash::Ptr _flash;$/;"	m	class:Command
+_flash	Flasher.h	/^    Flash::Ptr& _flash;$/;"	m	class:Flasher
+_flashFactory	Command.cpp	/^FlashFactory Command::_flashFactory;$/;"	m	class:Command	file:
+_flashFactory	Command.h	/^    static FlashFactory _flashFactory;$/;"	m	class:Command
+_flasher	Command.h	/^    static Flasher _flasher;$/;"	m	class:Command
+_handle	WinSerialPort.h	/^    HANDLE _handle;$/;"	m	class:WinSerialPort
+_help	Command.h	/^    const char* _help;$/;"	m	class:Command
+_infoButton	BossaForm.h	/^		wxButton* _infoButton;$/;"	m	class:MainFrame
+_infoStaticText	BossaForm.h	/^		wxStaticText* _infoStaticText;$/;"	m	class:ProgressDialog
+_isUsb	PosixSerialPort.h	/^    bool _isUsb;$/;"	m	class:PosixSerialPort
+_isUsb	Samba.h	/^    bool _isUsb;$/;"	m	class:Samba
+_isUsb	WinSerialPort.h	/^    bool _isUsb;$/;"	m	class:WinSerialPort
+_lock	BossaThread.h	/^    bool _lock;$/;"	m	class:WriteThread
+_lockCheckBox	BossaForm.h	/^		wxCheckBox* _lockCheckBox;$/;"	m	class:MainFrame
+_lockCheckBox0	BossaForm.h	/^		wxCheckBox* _lockCheckBox0;$/;"	m	class:InfoDialog
+_lockCheckBox1	BossaForm.h	/^		wxCheckBox* _lockCheckBox1;$/;"	m	class:InfoDialog
+_lockCheckBox10	BossaForm.h	/^		wxCheckBox* _lockCheckBox10;$/;"	m	class:InfoDialog
+_lockCheckBox11	BossaForm.h	/^		wxCheckBox* _lockCheckBox11;$/;"	m	class:InfoDialog
+_lockCheckBox12	BossaForm.h	/^		wxCheckBox* _lockCheckBox12;$/;"	m	class:InfoDialog
+_lockCheckBox13	BossaForm.h	/^		wxCheckBox* _lockCheckBox13;$/;"	m	class:InfoDialog
+_lockCheckBox14	BossaForm.h	/^		wxCheckBox* _lockCheckBox14;$/;"	m	class:InfoDialog
+_lockCheckBox15	BossaForm.h	/^		wxCheckBox* _lockCheckBox15;$/;"	m	class:InfoDialog
+_lockCheckBox16	BossaForm.h	/^		wxCheckBox* _lockCheckBox16;$/;"	m	class:InfoDialog
+_lockCheckBox17	BossaForm.h	/^		wxCheckBox* _lockCheckBox17;$/;"	m	class:InfoDialog
+_lockCheckBox18	BossaForm.h	/^		wxCheckBox* _lockCheckBox18;$/;"	m	class:InfoDialog
+_lockCheckBox19	BossaForm.h	/^		wxCheckBox* _lockCheckBox19;$/;"	m	class:InfoDialog
+_lockCheckBox2	BossaForm.h	/^		wxCheckBox* _lockCheckBox2;$/;"	m	class:InfoDialog
+_lockCheckBox20	BossaForm.h	/^		wxCheckBox* _lockCheckBox20;$/;"	m	class:InfoDialog
+_lockCheckBox21	BossaForm.h	/^		wxCheckBox* _lockCheckBox21;$/;"	m	class:InfoDialog
+_lockCheckBox22	BossaForm.h	/^		wxCheckBox* _lockCheckBox22;$/;"	m	class:InfoDialog
+_lockCheckBox23	BossaForm.h	/^		wxCheckBox* _lockCheckBox23;$/;"	m	class:InfoDialog
+_lockCheckBox24	BossaForm.h	/^		wxCheckBox* _lockCheckBox24;$/;"	m	class:InfoDialog
+_lockCheckBox25	BossaForm.h	/^		wxCheckBox* _lockCheckBox25;$/;"	m	class:InfoDialog
+_lockCheckBox26	BossaForm.h	/^		wxCheckBox* _lockCheckBox26;$/;"	m	class:InfoDialog
+_lockCheckBox27	BossaForm.h	/^		wxCheckBox* _lockCheckBox27;$/;"	m	class:InfoDialog
+_lockCheckBox28	BossaForm.h	/^		wxCheckBox* _lockCheckBox28;$/;"	m	class:InfoDialog
+_lockCheckBox29	BossaForm.h	/^		wxCheckBox* _lockCheckBox29;$/;"	m	class:InfoDialog
+_lockCheckBox3	BossaForm.h	/^		wxCheckBox* _lockCheckBox3;$/;"	m	class:InfoDialog
+_lockCheckBox30	BossaForm.h	/^		wxCheckBox* _lockCheckBox30;$/;"	m	class:InfoDialog
+_lockCheckBox31	BossaForm.h	/^		wxCheckBox* _lockCheckBox31;$/;"	m	class:InfoDialog
+_lockCheckBox4	BossaForm.h	/^		wxCheckBox* _lockCheckBox4;$/;"	m	class:InfoDialog
+_lockCheckBox5	BossaForm.h	/^		wxCheckBox* _lockCheckBox5;$/;"	m	class:InfoDialog
+_lockCheckBox6	BossaForm.h	/^		wxCheckBox* _lockCheckBox6;$/;"	m	class:InfoDialog
+_lockCheckBox7	BossaForm.h	/^		wxCheckBox* _lockCheckBox7;$/;"	m	class:InfoDialog
+_lockCheckBox8	BossaForm.h	/^		wxCheckBox* _lockCheckBox8;$/;"	m	class:InfoDialog
+_lockCheckBox9	BossaForm.h	/^		wxCheckBox* _lockCheckBox9;$/;"	m	class:InfoDialog
+_lockRegions	Flash.h	/^    uint32_t _lockRegions;$/;"	m	class:Flash
+_lockStaticText	BossaForm.h	/^		wxStaticText* _lockStaticText;$/;"	m	class:InfoDialog
+_name	Command.h	/^    const char* _name;$/;"	m	class:Command
+_name	Flash.h	/^    std::string _name;$/;"	m	class:Flash
+_name	SerialPort.h	/^    std::string _name;$/;"	m	class:SerialPort
+_numOpts	CmdOpts.h	/^    int _numOpts;$/;"	m	class:CmdOpts
+_onBufferA	Flash.h	/^    bool _onBufferA;$/;"	m	class:Flash
+_opts	CmdOpts.h	/^    Option* _opts;$/;"	m	class:CmdOpts
+_pageBufferA	Flash.h	/^    uint32_t _pageBufferA;$/;"	m	class:Flash
+_pageBufferB	Flash.h	/^    uint32_t _pageBufferB;$/;"	m	class:Flash
+_pageSizeStaticText	BossaForm.h	/^		wxStaticText* _pageSizeStaticText;$/;"	m	class:InfoDialog
+_pageSizeTextCtrl	BossaForm.h	/^		wxTextCtrl* _pageSizeTextCtrl;$/;"	m	class:InfoDialog
+_pages	Flash.h	/^    uint32_t _pages;$/;"	m	class:Flash
+_pagesStaticText	BossaForm.h	/^		wxStaticText* _pagesStaticText;$/;"	m	class:InfoDialog
+_pagesTextCtrl	BossaForm.h	/^		wxTextCtrl* _pagesTextCtrl;$/;"	m	class:InfoDialog
+_parent	BossaProgress.h	/^    wxEvtHandler* _parent;$/;"	m	class:BossaProgress
+_parent	BossaThread.h	/^    wxEvtHandler* _parent;$/;"	m	class:BossaThread
+_planes	Flash.h	/^    uint32_t _planes;$/;"	m	class:Flash
+_planesStaticText	BossaForm.h	/^		wxStaticText* _planesStaticText;$/;"	m	class:InfoDialog
+_planesTextCtrl	BossaForm.h	/^		wxTextCtrl* _planesTextCtrl;$/;"	m	class:InfoDialog
+_port	Samba.h	/^    SerialPort::Ptr _port;$/;"	m	class:Samba
+_portComboBox	BossaForm.h	/^		wxComboBox* _portComboBox;$/;"	m	class:MainFrame
+_portFactory	Command.cpp	/^PortFactory Command::_portFactory;$/;"	m	class:Command	file:
+_portFactory	Command.h	/^    static PortFactory _portFactory;$/;"	m	class:Command
+_progress	BossaWindow.h	/^    BossaProgress* _progress;$/;"	m	class:BossaWindow
+_readButton	BossaForm.h	/^		wxButton* _readButton;$/;"	m	class:MainFrame
+_refreshButton	BossaForm.h	/^		wxButton* _refreshButton;$/;"	m	class:MainFrame
+_regs	EefcFlash.h	/^    uint32_t _regs;$/;"	m	class:EefcFlash
+_reset	Applet.h	/^    uint32_t _reset;$/;"	m	class:Applet
+_samba	Applet.h	/^    Samba& _samba;$/;"	m	class:Applet
+_samba	Command.cpp	/^Samba Command::_samba;$/;"	m	class:Command	file:
+_samba	Command.h	/^    static Samba _samba;$/;"	m	class:Command
+_samba	Flash.h	/^    Samba& _samba;$/;"	m	class:Flash
+_sdbSizer	BossaForm.h	/^		wxStdDialogButtonSizer* _sdbSizer;$/;"	m	class:AboutDialog
+_sdbSizer	BossaForm.h	/^		wxStdDialogButtonSizer* _sdbSizer;$/;"	m	class:InfoDialog
+_sdbSizer	BossaForm.h	/^		wxStdDialogButtonSizer* _sdbSizer;$/;"	m	class:ProgressDialog
+_sdbSizerCancel	BossaForm.h	/^		wxButton* _sdbSizerCancel;$/;"	m	class:ProgressDialog
+_sdbSizerOK	BossaForm.h	/^		wxButton* _sdbSizerOK;$/;"	m	class:AboutDialog
+_sdbSizerOK	BossaForm.h	/^		wxButton* _sdbSizerOK;$/;"	m	class:InfoDialog
+_security	BossaThread.h	/^    bool _security;$/;"	m	class:WriteThread
+_securityCheckBox	BossaForm.h	/^		wxCheckBox* _securityCheckBox;$/;"	m	class:InfoDialog
+_securityCheckBox	BossaForm.h	/^		wxCheckBox* _securityCheckBox;$/;"	m	class:MainFrame
+_shell	Command.h	/^    static Shell* _shell;$/;"	m	class:Command
+_shumaTechLogo	BossaBitmaps.h	/^    wxBitmap _shumaTechLogo;$/;"	m	class:BossaBitmaps
+_shumatechBitmap	BossaForm.h	/^		wxStaticBitmap* _shumatechBitmap;$/;"	m	class:AboutDialog
+_shumatechHyperlink	BossaForm.h	/^		wxHyperlinkCtrl* _shumatechHyperlink;$/;"	m	class:AboutDialog
+_size	Applet.h	/^    uint32_t _size;$/;"	m	class:Applet
+_size	BossaThread.h	/^    size_t _size;$/;"	m	class:ReadThread
+_size	Flash.h	/^    uint32_t _size;$/;"	m	class:Flash
+_sizeStaticText	BossaForm.h	/^		wxStaticText* _sizeStaticText;$/;"	m	class:MainFrame
+_sizeTextCtrl	BossaForm.h	/^		wxTextCtrl* _sizeTextCtrl;$/;"	m	class:MainFrame
+_stack	Applet.h	/^    uint32_t _stack;$/;"	m	class:Applet
+_start	Applet.h	/^    uint32_t _start;$/;"	m	class:Applet
+_statusBar	BossaForm.h	/^		wxStatusBar* _statusBar;$/;"	m	class:MainFrame
+_statusGauge	BossaForm.h	/^		wxGauge* _statusGauge;$/;"	m	class:ProgressDialog
+_stopped	BossaThread.h	/^    bool _stopped;$/;"	m	class:BossaThread
+_thread	BossaWindow.h	/^    BossaThread* _thread;$/;"	m	class:BossaWindow
+_timeout	PosixSerialPort.h	/^    int _timeout;$/;"	m	class:PosixSerialPort
+_titleStaticText	BossaForm.h	/^		wxStaticText* _titleStaticText;$/;"	m	class:AboutDialog
+_titleText	BossaForm.h	/^		wxStaticText* _titleText;$/;"	m	class:MainFrame
+_totalSizeStaticText	BossaForm.h	/^		wxStaticText* _totalSizeStaticText;$/;"	m	class:InfoDialog
+_totalSizeTextCtrl	BossaForm.h	/^		wxTextCtrl* _totalSizeTextCtrl;$/;"	m	class:InfoDialog
+_usage	Command.h	/^    const char* _usage;$/;"	m	class:Command
+_user	Flash.h	/^    uint32_t _user;$/;"	m	class:Flash
+_verifyButton	BossaForm.h	/^		wxButton* _verifyButton;$/;"	m	class:MainFrame
+_versionStaticText	BossaForm.h	/^		wxStaticText* _versionStaticText;$/;"	m	class:AboutDialog
+_versionStaticText	BossaForm.h	/^		wxStaticText* _versionStaticText;$/;"	m	class:InfoDialog
+_versionTextCtrl	BossaForm.h	/^		wxTextCtrl* _versionTextCtrl;$/;"	m	class:InfoDialog
+_window	BossaApp.h	/^    BossaWindow* _window;$/;"	m	class:BossaApp
+_wordCopy	Flash.h	/^    WordCopyApplet _wordCopy;$/;"	m	class:Flash
+_writeButton	BossaForm.h	/^		wxButton* _writeButton;$/;"	m	class:MainFrame
+_wxStaticText	BossaForm.h	/^		wxStaticText* _wxStaticText;$/;"	m	class:AboutDialog
+add	Shell.cpp	/^Shell::add(Command* command)$/;"	f	class:Shell
+addr	Applet.h	/^    virtual uint32_t addr() { return _addr; }$/;"	f	class:Applet
+address	Flash.h	/^    virtual uint32_t address() { return _addr; }$/;"	f	class:Flash
+applet	WordCopyApplet.h	/^    static WordCopyArm applet;$/;"	m	class:WordCopyApplet
+applet	WordCopyArm.cpp	/^WordCopyArm WordCopyApplet::applet = {$/;"	m	class:WordCopyApplet	file:
+arg	CmdOpts.h	/^    OptArg arg;$/;"	m	struct:__anon5
+argBool	Command.cpp	/^Command::argBool(const char* arg, bool* value)$/;"	f	class:Command
+argNum	Command.cpp	/^Command::argNum(int argc, int num)$/;"	f	class:Command
+argRange	Command.cpp	/^Command::argRange(int argc, int min, int max)$/;"	f	class:Command
+argState	Command.cpp	/^Command::argState(const char* arg, bool* value)$/;"	f	class:Command
+argUint32	Command.cpp	/^Command::argUint32(const char* arg, uint32_t* value)$/;"	f	class:Command
+autoScan	bossac.cpp	/^autoScan(Samba& samba, PortFactory& portFactory, string& port)$/;"	f
+begin	LinuxPortFactory.cpp	/^LinuxPortFactory::begin()$/;"	f	class:LinuxPortFactory
+begin	OSXPortFactory.cpp	/^OSXPortFactory::begin()$/;"	f	class:OSXPortFactory
+begin	WinPortFactory.cpp	/^WinPortFactory::begin()$/;"	f	class:WinPortFactory
+binstr	Command.cpp	/^Command::binstr(uint32_t value, int bits, char low, char high)$/;"	f	class:Command
+bitmaps	BossaApp.h	/^    BossaBitmaps bitmaps;$/;"	m	class:BossaApp
+bod	bossac.cpp	/^    bool bod;$/;"	m	class:BossaConfig	file:
+bodArg	bossac.cpp	/^    int bodArg;$/;"	m	class:BossaConfig	file:
+boot	bossac.cpp	/^    bool boot;$/;"	m	class:BossaConfig	file:
+bootArg	bossac.cpp	/^    int bootArg;$/;"	m	class:BossaConfig	file:
+bor	bossac.cpp	/^    bool bor;$/;"	m	class:BossaConfig	file:
+borArg	bossac.cpp	/^    int borArg;$/;"	m	class:BossaConfig	file:
+canBod	EefcFlash.h	/^    bool canBod() { return _canBrownout; }$/;"	f	class:EefcFlash
+canBod	EfcFlash.h	/^    bool canBod() { return true; }$/;"	f	class:EfcFlash
+canBootFlash	EefcFlash.h	/^    bool canBootFlash() { return true; }$/;"	f	class:EefcFlash
+canBootFlash	EfcFlash.h	/^    bool canBootFlash() { return _canBootFlash; }$/;"	f	class:EfcFlash
+canBor	EefcFlash.h	/^    bool canBor() { return _canBrownout; }$/;"	f	class:EefcFlash
+canBor	EfcFlash.h	/^    bool canBor() { return true; }$/;"	f	class:EfcFlash
+check	WordCopyArm.asm	/^check:$/;"	l
+chipId	Samba.cpp	/^Samba::chipId()$/;"	f	class:Samba
+cleanup	WinPortFactory.cpp	/^WinPortFactory::cleanup()$/;"	f	class:WinPortFactory
+close	PosixSerialPort.cpp	/^PosixSerialPort::close()$/;"	f	class:PosixSerialPort
+close	WinSerialPort.cpp	/^WinSerialPort::close()$/;"	f	class:WinSerialPort
+code	WordCopyArm.h	/^    uint8_t code[52];$/;"	m	struct:__anon6
+config	BossaApp.h	/^    wxConfig config;$/;"	m	class:BossaApp
+config	bossac.cpp	/^static BossaConfig config;$/;"	v	file:
+connect	Samba.cpp	/^Samba::connect(SerialPort::Ptr port)$/;"	f	class:Samba
+connected	Command.cpp	/^Command::connected()$/;"	f	class:Command
+copy	WordCopyArm.asm	/^copy:$/;"	l
+crc16Add	Samba.cpp	/^Samba::crc16Add(uint8_t *blk)$/;"	f	class:Samba
+crc16Calc	Samba.cpp	/^Samba::crc16Calc(const uint8_t *data, int len)$/;"	f	class:Samba
+crc16Check	Samba.cpp	/^Samba::crc16Check(const uint8_t *blk)$/;"	f	class:Samba
+create	FlashFactory.cpp	/^FlashFactory::create(Samba& samba, uint32_t chipId)$/;"	f	class:FlashFactory
+create	LinuxPortFactory.cpp	/^LinuxPortFactory::create(const std::string& name)$/;"	f	class:LinuxPortFactory
+create	OSXPortFactory.cpp	/^OSXPortFactory::create(const std::string& name)$/;"	f	class:OSXPortFactory
+create	WinPortFactory.cpp	/^WinPortFactory::create(const std::string& name)$/;"	f	class:WinPortFactory
+createFlash	Command.cpp	/^Command::createFlash()$/;"	f	class:Command
+debug	bossac.cpp	/^    bool debug;$/;"	m	class:BossaConfig	file:
+disconnect	Command.cpp	/^Command::disconnect()$/;"	f	class:Command
+disconnect	Samba.cpp	/^Samba::disconnect()$/;"	f	class:Samba
+dst_addr	WordCopyArm.asm	/^dst_addr:$/;"	l
+dst_addr	WordCopyArm.h	/^    uint32_t dst_addr;$/;"	m	struct:__anon6
+end	LinuxPortFactory.cpp	/^LinuxPortFactory::end()$/;"	f	class:LinuxPortFactory
+end	OSXPortFactory.cpp	/^OSXPortFactory::end()$/;"	f	class:OSXPortFactory
+end	WinPortFactory.cpp	/^WinPortFactory::end()$/;"	f	class:WinPortFactory
+erase	Flasher.cpp	/^Flasher::erase()$/;"	f	class:Flasher
+erase	bossac.cpp	/^    bool erase;$/;"	m	class:BossaConfig	file:
+eraseAll	EefcFlash.cpp	/^EefcFlash::eraseAll()$/;"	f	class:EefcFlash
+eraseAll	EfcFlash.cpp	/^EfcFlash::eraseAll()$/;"	f	class:EfcFlash
+eraseAuto	EefcFlash.cpp	/^EefcFlash::eraseAuto(bool enable)$/;"	f	class:EefcFlash
+eraseAuto	EfcFlash.cpp	/^EfcFlash::eraseAuto(bool enable)$/;"	f	class:EfcFlash
+error	Command.cpp	/^Command::error(const char* fmt, ...)$/;"	f	class:Command
+error	WinPortFactory.cpp	/^WinPortFactory::error()$/;"	f	class:WinPortFactory
+exitFlag	Shell.h	/^    bool& exitFlag() { return _exitFlag; }$/;"	f	class:Shell
+find	CmdOpts.cpp	/^CmdOpts::find(char letter)$/;"	f	class:CmdOpts
+find	Shell.cpp	/^Shell::find(const char* name)$/;"	f	class:Shell
+flash	BossaApp.h	/^    Flash::Ptr flash;$/;"	m	class:BossaApp
+flashable	Command.cpp	/^Command::flashable()$/;"	f	class:Command
+flush	PosixSerialPort.cpp	/^PosixSerialPort::flush()$/;"	f	class:PosixSerialPort
+flush	WinSerialPort.cpp	/^WinSerialPort::flush()$/;"	f	class:WinSerialPort
+get	PosixSerialPort.cpp	/^PosixSerialPort::get()$/;"	f	class:PosixSerialPort
+get	WinSerialPort.cpp	/^WinSerialPort::get()$/;"	f	class:WinSerialPort
+getBod	EefcFlash.cpp	/^EefcFlash::getBod()$/;"	f	class:EefcFlash
+getBod	EfcFlash.cpp	/^EfcFlash::getBod()$/;"	f	class:EfcFlash
+getBootFlash	EefcFlash.cpp	/^EefcFlash::getBootFlash()$/;"	f	class:EefcFlash
+getBootFlash	EfcFlash.cpp	/^EfcFlash::getBootFlash()$/;"	f	class:EfcFlash
+getBor	EefcFlash.cpp	/^EefcFlash::getBor()$/;"	f	class:EefcFlash
+getBor	EfcFlash.cpp	/^EfcFlash::getBor()$/;"	f	class:EfcFlash
+getBossaIcon	BossaBitmaps.h	/^    const wxBitmap& getBossaIcon() { return _bossaIcon; }$/;"	f	class:BossaBitmaps
+getBossaLogo	BossaBitmaps.h	/^    const wxBitmap& getBossaLogo() { return _bossaLogo; }$/;"	f	class:BossaBitmaps
+getLockRegion	EefcFlash.cpp	/^EefcFlash::getLockRegion(uint32_t region)$/;"	f	class:EefcFlash
+getLockRegion	EfcFlash.cpp	/^EfcFlash::getLockRegion(uint32_t region)$/;"	f	class:EfcFlash
+getSecurity	EefcFlash.cpp	/^EefcFlash::getSecurity()$/;"	f	class:EefcFlash
+getSecurity	EfcFlash.cpp	/^EfcFlash::getSecurity()$/;"	f	class:EfcFlash
+getSerialPort	Samba.h	/^    const SerialPort& getSerialPort() { return *_port; }$/;"	f	class:Samba
+getShumaTechLogo	BossaBitmaps.h	/^    const wxBitmap& getShumaTechLogo() { return _shumaTechLogo; }$/;"	f	class:BossaBitmaps
+go	Samba.cpp	/^Samba::go(uint32_t addr)$/;"	f	class:Samba
+has	CmdOpts.h	/^    ArgHas has;$/;"	m	struct:__anon3
+help	CmdOpts.h	/^    const char* help;$/;"	m	struct:__anon5
+help	Command.h	/^    const char* help() { return _help; };$/;"	f	class:Command
+help	Shell.cpp	/^Shell::help()$/;"	f	class:Shell
+help	bossac.cpp	/^    bool help;$/;"	m	class:BossaConfig	file:
+help	bossac.cpp	/^help(const char* program)$/;"	f
+hexdump	Command.cpp	/^Command::hexdump(uint32_t addr, uint8_t *buf, size_t count)$/;"	f	class:Command
+info	Flasher.cpp	/^Flasher::info(Samba& samba)$/;"	f	class:Flasher
+info	bossac.cpp	/^    bool info;$/;"	m	class:BossaConfig	file:
+init	BossaBitmaps.cpp	/^BossaBitmaps::init()$/;"	f	class:BossaBitmaps
+init	Samba.cpp	/^Samba::init()$/;"	f	class:Samba
+intPtr	CmdOpts.h	/^        int* intPtr;$/;"	m	union:__anon3::__anon4
+invoke	Command.cpp	/^CommandBod::invoke(char* argv[], int argc)$/;"	f	class:CommandBod
+invoke	Command.cpp	/^CommandBootf::invoke(char* argv[], int argc)$/;"	f	class:CommandBootf
+invoke	Command.cpp	/^CommandBor::invoke(char* argv[], int argc)$/;"	f	class:CommandBor
+invoke	Command.cpp	/^CommandConnect::invoke(char* argv[], int argc)$/;"	f	class:CommandConnect
+invoke	Command.cpp	/^CommandDebug::invoke(char* argv[], int argc)$/;"	f	class:CommandDebug
+invoke	Command.cpp	/^CommandDump::invoke(char* argv[], int argc)$/;"	f	class:CommandDump
+invoke	Command.cpp	/^CommandErase::invoke(char* argv[], int argc)$/;"	f	class:CommandErase
+invoke	Command.cpp	/^CommandExit::invoke(char* argv[], int argc)$/;"	f	class:CommandExit
+invoke	Command.cpp	/^CommandGo::invoke(char* argv[], int argc)$/;"	f	class:CommandGo
+invoke	Command.cpp	/^CommandHelp::invoke(char* argv[], int argc)$/;"	f	class:CommandHelp
+invoke	Command.cpp	/^CommandHistory::invoke(char* argv[], int argc)$/;"	f	class:CommandHistory
+invoke	Command.cpp	/^CommandInfo::invoke(char* argv[], int argc)$/;"	f	class:CommandInfo
+invoke	Command.cpp	/^CommandLock::invoke(char* argv[], int argc)$/;"	f	class:CommandLock
+invoke	Command.cpp	/^CommandMrb::invoke(char* argv[], int argc)$/;"	f	class:CommandMrb
+invoke	Command.cpp	/^CommandMrf::invoke(char* argv[], int argc)$/;"	f	class:CommandMrf
+invoke	Command.cpp	/^CommandMrw::invoke(char* argv[], int argc)$/;"	f	class:CommandMrw
+invoke	Command.cpp	/^CommandMwb::invoke(char* argv[], int argc)$/;"	f	class:CommandMwb
+invoke	Command.cpp	/^CommandMwf::invoke(char* argv[], int argc)$/;"	f	class:CommandMwf
+invoke	Command.cpp	/^CommandMww::invoke(char* argv[], int argc)$/;"	f	class:CommandMww
+invoke	Command.cpp	/^CommandPio::invoke(char* argv[], int argc)$/;"	f	class:CommandPio
+invoke	Command.cpp	/^CommandRead::invoke(char* argv[], int argc)$/;"	f	class:CommandRead
+invoke	Command.cpp	/^CommandScan::invoke(char* argv[], int argc)$/;"	f	class:CommandScan
+invoke	Command.cpp	/^CommandSecurity::invoke(char* argv[], int argc)$/;"	f	class:CommandSecurity
+invoke	Command.cpp	/^CommandUnlock::invoke(char* argv[], int argc)$/;"	f	class:CommandUnlock
+invoke	Command.cpp	/^CommandVerify::invoke(char* argv[], int argc)$/;"	f	class:CommandVerify
+invoke	Command.cpp	/^CommandWrite::invoke(char* argv[], int argc)$/;"	f	class:CommandWrite
+invoke	Shell.cpp	/^Shell::invoke(char* argv[], int argc)$/;"	f	class:Shell
+isLocked	EefcFlash.cpp	/^EefcFlash::isLocked()$/;"	f	class:EefcFlash
+isLocked	EfcFlash.cpp	/^EfcFlash::isLocked()$/;"	f	class:EfcFlash
+isUsb	PosixSerialPort.h	/^    bool isUsb() { return _isUsb; };$/;"	f	class:PosixSerialPort
+isUsb	WinSerialPort.h	/^    bool isUsb() { return _isUsb; };$/;"	f	class:WinSerialPort
+letter	CmdOpts.h	/^    char letter;$/;"	m	struct:__anon5
+loadBuffer	Flash.cpp	/^Flash::loadBuffer(const uint8_t* data)$/;"	f	class:Flash
+lock	Flasher.cpp	/^Flasher::lock(string& regionArg, bool enable)$/;"	f	class:Flasher
+lock	bossac.cpp	/^    bool lock;$/;"	m	class:BossaConfig	file:
+lockAll	Flash.cpp	/^Flash::lockAll()$/;"	f	class:Flash
+lockArg	bossac.cpp	/^    string lockArg;$/;"	m	class:BossaConfig	file:
+lockRegions	Flash.h	/^    virtual uint32_t lockRegions() { return _lockRegions; }$/;"	f	class:Flash
+m_disclaimerStaticText	BossaForm.h	/^		wxStaticText* m_disclaimerStaticText;$/;"	m	class:AboutDialog
+m_staticline1	BossaForm.h	/^		wxStaticLine* m_staticline1;$/;"	m	class:AboutDialog
+m_staticline2	BossaForm.h	/^		wxStaticLine* m_staticline2;$/;"	m	class:AboutDialog
+m_staticline3	BossaForm.h	/^		wxStaticLine* m_staticline3;$/;"	m	class:AboutDialog
+main	bossac.cpp	/^main(int argc, char* argv[])$/;"	f
+main	bossash.cpp	/^main(int argc, char* argv[])$/;"	f
+min	Command.cpp	41;"	d	file:
+min	Samba.cpp	51;"	d	file:
+name	CmdOpts.h	/^    const char* name;$/;"	m	struct:__anon3
+name	CmdOpts.h	/^    const char* name;$/;"	m	struct:__anon5
+name	Command.h	/^    const char* name() { return _name; };$/;"	f	class:Command
+name	Flash.h	/^    const std::string& name() { return _name; }$/;"	f	class:Flash
+name	SerialPort.h	/^    virtual std::string name() const { return _name; }$/;"	f	class:SerialPort
+next	LinuxPortFactory.cpp	/^LinuxPortFactory::next()$/;"	f	class:LinuxPortFactory
+next	OSXPortFactory.cpp	/^OSXPortFactory::next()$/;"	f	class:OSXPortFactory
+next	WinPortFactory.cpp	/^WinPortFactory::next()$/;"	f	class:WinPortFactory
+numPages	Flash.h	/^    virtual uint32_t numPages() { return _pages; }$/;"	f	class:Flash
+numPlanes	Flash.h	/^    virtual uint32_t numPlanes() { return _planes; }$/;"	f	class:Flash
+open	PosixSerialPort.cpp	/^PosixSerialPort::open(int baud,$/;"	f	class:PosixSerialPort
+open	WinSerialPort.cpp	/^WinSerialPort::open(int baud, int data, SerialPort::Parity parity, SerialPort::StopBit stop)$/;"	f	class:WinSerialPort
+operator <	Command.cpp	/^Command::operator < (const Command& rhs)$/;"	f	class:Command
+opts	bossac.cpp	/^static Option opts[] =$/;"	v	file:
+pageSize	Flash.h	/^    virtual uint32_t pageSize() { return _size; }$/;"	f	class:Flash
+parse	CmdOpts.cpp	/^CmdOpts::parse()$/;"	f	class:CmdOpts
+port	bossac.cpp	/^    bool port;$/;"	m	class:BossaConfig	file:
+portArg	bossac.cpp	/^    string portArg;$/;"	m	class:BossaConfig	file:
+portFactory	BossaApp.h	/^    PortFactory portFactory;$/;"	m	class:BossaApp
+present	CmdOpts.h	/^    bool* present;$/;"	m	struct:__anon5
+printLastError	WinSerialPort.cpp	/^printLastError()$/;"	f	file:
+progressBar	Flasher.cpp	/^Flasher::progressBar(int num, int div)$/;"	f	class:Flasher
+put	PosixSerialPort.cpp	/^PosixSerialPort::put(int c)$/;"	f	class:PosixSerialPort
+put	WinSerialPort.cpp	/^WinSerialPort::put(int c)$/;"	f	class:WinSerialPort
+read	Flasher.cpp	/^Flasher::read(const char* filename, long fsize)$/;"	f	class:Flasher
+read	PosixSerialPort.cpp	/^PosixSerialPort::read(uint8_t* buffer, int len)$/;"	f	class:PosixSerialPort
+read	Samba.cpp	/^Samba::read(uint32_t addr, uint8_t* buffer, int size)$/;"	f	class:Samba
+read	WinSerialPort.cpp	/^WinSerialPort::read(uint8_t* data, int size)$/;"	f	class:WinSerialPort
+read	bossac.cpp	/^    bool read;$/;"	m	class:BossaConfig	file:
+readArg	bossac.cpp	/^    int readArg;$/;"	m	class:BossaConfig	file:
+readBinary	Samba.cpp	/^Samba::readBinary(uint8_t* buffer, int size)$/;"	f	class:Samba
+readByte	Samba.cpp	/^Samba::readByte(uint32_t addr)$/;"	f	class:Samba
+readFRR0	EefcFlash.cpp	/^EefcFlash::readFRR0()$/;"	f	class:EefcFlash
+readFRR1	EefcFlash.cpp	/^EefcFlash::readFRR1()$/;"	f	class:EefcFlash
+readFSR0	EfcFlash.cpp	/^EfcFlash::readFSR0()$/;"	f	class:EfcFlash
+readFSR1	EfcFlash.cpp	/^EfcFlash::readFSR1()$/;"	f	class:EfcFlash
+readPage	EefcFlash.cpp	/^EefcFlash::readPage(uint32_t page, uint8_t* data)$/;"	f	class:EefcFlash
+readPage	EfcFlash.cpp	/^EfcFlash::readPage(uint32_t page, uint8_t* data)$/;"	f	class:EfcFlash
+readWord	Samba.cpp	/^Samba::readWord(uint32_t addr)$/;"	f	class:Samba
+readXmodem	Samba.cpp	/^Samba::readXmodem(uint8_t* buffer, int size)$/;"	f	class:Samba
+reset	TemplateArm.asm	/^reset:$/;"	l
+reset	WordCopyArm.asm	/^reset:$/;"	l
+reset	WordCopyArm.h	/^    uint32_t reset;$/;"	m	struct:__anon6
+return	TemplateArm.asm	/^return:$/;"	l
+return	WordCopyArm.asm	/^return:$/;"	l
+run	Applet.cpp	/^Applet::run()$/;"	f	class:Applet
+runv	Applet.cpp	/^Applet::runv()$/;"	f	class:Applet
+samba	BossaApp.h	/^    Samba samba;$/;"	m	class:BossaApp
+security	bossac.cpp	/^    bool security;$/;"	m	class:BossaConfig	file:
+setBod	EefcFlash.cpp	/^EefcFlash::setBod(bool enable)$/;"	f	class:EefcFlash
+setBod	EfcFlash.cpp	/^EfcFlash::setBod(bool enable)$/;"	f	class:EfcFlash
+setBootFlash	EefcFlash.cpp	/^EefcFlash::setBootFlash(bool enable)$/;"	f	class:EefcFlash
+setBootFlash	EfcFlash.cpp	/^EfcFlash::setBootFlash(bool enable)$/;"	f	class:EfcFlash
+setBor	EefcFlash.cpp	/^EefcFlash::setBor(bool enable)$/;"	f	class:EefcFlash
+setBor	EfcFlash.cpp	/^EfcFlash::setBor(bool enable)$/;"	f	class:EfcFlash
+setDebug	Samba.h	/^    void setDebug(bool debug) { _debug = debug; }$/;"	f	class:Samba
+setDstAddr	WordCopyApplet.cpp	/^WordCopyApplet::setDstAddr(uint32_t dstAddr)$/;"	f	class:WordCopyApplet
+setLockRegion	EefcFlash.cpp	/^EefcFlash::setLockRegion(uint32_t region, bool enable)$/;"	f	class:EefcFlash
+setLockRegion	EfcFlash.cpp	/^EfcFlash::setLockRegion(uint32_t region, bool enable)$/;"	f	class:EfcFlash
+setSecurity	EefcFlash.cpp	/^EefcFlash::setSecurity()$/;"	f	class:EefcFlash
+setSecurity	EfcFlash.cpp	/^EfcFlash::setSecurity()$/;"	f	class:EfcFlash
+setShell	Command.h	/^    static void setShell(Shell* shell) { _shell = shell; }$/;"	f	class:Command
+setSrcAddr	WordCopyApplet.cpp	/^WordCopyApplet::setSrcAddr(uint32_t srcAddr)$/;"	f	class:WordCopyApplet
+setStack	Applet.cpp	/^Applet::setStack(uint32_t stack)$/;"	f	class:Applet
+setWords	WordCopyApplet.cpp	/^WordCopyApplet::setWords(uint32_t words)$/;"	f	class:WordCopyApplet
+size	Applet.h	/^    virtual uint32_t size() { return _size; }$/;"	f	class:Applet
+split	bossash.cpp	/^split(char* str, char* tokv[], int tokn)$/;"	f	file:
+src_addr	WordCopyArm.asm	/^src_addr:$/;"	l
+src_addr	WordCopyArm.h	/^    uint32_t src_addr;$/;"	m	struct:__anon6
+stack	TemplateArm.asm	/^stack:$/;"	l
+stack	WordCopyArm.asm	/^stack:$/;"	l
+stack	WordCopyArm.h	/^    uint32_t stack;$/;"	m	struct:__anon6
+start	TemplateArm.asm	/^start:$/;"	l
+start	WordCopyArm.asm	/^start:$/;"	l
+start	WordCopyArm.h	/^    uint32_t start;$/;"	m	struct:__anon6
+stop	BossaThread.h	/^    void stop() { _stopped = true; }$/;"	f	class:BossaThread
+strPtr	CmdOpts.h	/^        std::string* strPtr;$/;"	m	union:__anon3::__anon4
+timeout	PosixSerialPort.cpp	/^PosixSerialPort::timeout(int millisecs)$/;"	f	class:PosixSerialPort
+timeout	WinSerialPort.cpp	/^WinSerialPort::timeout(int millisecs)$/;"	f	class:WinSerialPort
+type	CmdOpts.h	/^    ArgType type;$/;"	m	struct:__anon3
+unlock	bossac.cpp	/^    bool unlock;$/;"	m	class:BossaConfig	file:
+unlockAll	Flash.cpp	/^Flash::unlockAll()$/;"	f	class:Flash
+unlockArg	bossac.cpp	/^    string unlockArg;$/;"	m	class:BossaConfig	file:
+usage	CmdOpts.cpp	/^CmdOpts::usage(FILE* out)$/;"	f	class:CmdOpts
+usage	Command.h	/^    const char* usage() { return _usage; };$/;"	f	class:Command
+usage	Shell.cpp	/^Shell::usage(const char* name)$/;"	f	class:Shell
+value	CmdOpts.h	/^    } value;$/;"	m	struct:__anon3	typeref:union:__anon3::__anon4
+verify	Flasher.cpp	/^Flasher::verify(const char* filename)$/;"	f	class:Flasher
+verify	bossac.cpp	/^    bool verify;$/;"	m	class:BossaConfig	file:
+version	Samba.cpp	/^Samba::version()$/;"	f	class:Samba
+voidPtr	CmdOpts.h	/^        void* voidPtr;$/;"	m	union:__anon3::__anon4
+waitFSR	EefcFlash.cpp	/^EefcFlash::waitFSR()$/;"	f	class:EefcFlash
+waitFSR	EfcFlash.cpp	/^EfcFlash::waitFSR()$/;"	f	class:EfcFlash
+what	BossaThread.cpp	/^    const char* what() const throw() { return "File I\/O operation failed"; }$/;"	f	class:FileIoError
+what	BossaThread.cpp	/^    const char* what() const throw() { return "File operation exceeds flash size"; }$/;"	f	class:FileSizeError
+what	BossaThread.cpp	/^    const char* what() const throw() { return "Unable to open file"; }$/;"	f	class:FileOpenError
+what	FileError.h	/^    const char* what() const throw() { return "short write"; }$/;"	f	class:FileShortError
+what	FileError.h	/^    const char* what() const throw() { return strerror(_errnum); }$/;"	f	class:FileIoError
+what	FileError.h	/^    const char* what() const throw() { return strerror(_errnum); }$/;"	f	class:FileOpenError
+what	Flash.h	/^    const char* what() const throw() { return "Flash command failed"; }$/;"	f	class:FlashCmdError
+what	Flash.h	/^    const char* what() const throw() { return "Flash page is locked"; }$/;"	f	class:FlashLockError
+what	Flash.h	/^    const char* what() const throw() { return "Invalid flash page"; }$/;"	f	class:FlashPageError
+what	Flash.h	/^    const char* what() const throw() { return "Invalid lock region"; }$/;"	f	class:FlashRegionError
+what	Flasher.h	/^    virtual const char* what() const throw() { return "file operation exceeds flash size"; }$/;"	f	class:FileSizeError
+what	Samba.h	/^    const char* what() const throw() { return "SAM-BA operation failed"; }$/;"	f	class:SambaError
+words	WordCopyArm.asm	/^words:$/;"	l
+words	WordCopyArm.h	/^    uint32_t words;$/;"	m	struct:__anon6
+write	Flasher.cpp	/^Flasher::write(const char* filename)$/;"	f	class:Flasher
+write	PosixSerialPort.cpp	/^PosixSerialPort::write(const uint8_t* buffer, int len)$/;"	f	class:PosixSerialPort
+write	Samba.cpp	/^Samba::write(uint32_t addr, const uint8_t* buffer, int size)$/;"	f	class:Samba
+write	WinSerialPort.cpp	/^WinSerialPort::write(const uint8_t* data, int size)$/;"	f	class:WinSerialPort
+write	bossac.cpp	/^    bool write;$/;"	m	class:BossaConfig	file:
+writeBinary	Samba.cpp	/^Samba::writeBinary(const uint8_t* buffer, int size)$/;"	f	class:Samba
+writeByte	Samba.cpp	/^Samba::writeByte(uint32_t addr, uint8_t value)$/;"	f	class:Samba
+writeFCR0	EefcFlash.cpp	/^EefcFlash::writeFCR0(uint8_t cmd, uint32_t arg)$/;"	f	class:EefcFlash
+writeFCR0	EfcFlash.cpp	/^EfcFlash::writeFCR0(uint8_t cmd, uint32_t arg)$/;"	f	class:EfcFlash
+writeFCR1	EefcFlash.cpp	/^EefcFlash::writeFCR1(uint8_t cmd, uint32_t arg)$/;"	f	class:EefcFlash
+writeFCR1	EfcFlash.cpp	/^EfcFlash::writeFCR1(uint8_t cmd, uint32_t arg)$/;"	f	class:EfcFlash
+writePage	EefcFlash.cpp	/^EefcFlash::writePage(uint32_t page)$/;"	f	class:EefcFlash
+writePage	EfcFlash.cpp	/^EfcFlash::writePage(uint32_t page)$/;"	f	class:EfcFlash
+writeWord	Samba.cpp	/^Samba::writeWord(uint32_t addr, uint32_t value)$/;"	f	class:Samba
+writeXmodem	Samba.cpp	/^Samba::writeXmodem(const uint8_t* buffer, int size)$/;"	f	class:Samba
+~AboutDialog	BossaForm.cpp	/^AboutDialog::~AboutDialog()$/;"	f	class:AboutDialog
+~Applet	Applet.h	/^    virtual ~Applet() {}$/;"	f	class:Applet
+~BossaConfig	bossac.cpp	/^    virtual ~BossaConfig() {}$/;"	f	class:BossaConfig
+~BossaWindow	BossaWindow.cpp	/^BossaWindow::~BossaWindow()$/;"	f	class:BossaWindow
+~CmdOpts	CmdOpts.cpp	/^CmdOpts::~CmdOpts()$/;"	f	class:CmdOpts
+~Command	Command.h	/^    virtual ~Command() {}$/;"	f	class:Command
+~DriverBase	Driver.h	/^    virtual ~DriverBase() {}$/;"	f	class:DriverBase
+~EefcFlash	EefcFlash.cpp	/^EefcFlash::~EefcFlash()$/;"	f	class:EefcFlash
+~EfcFlash	EfcFlash.cpp	/^EfcFlash::~EfcFlash()$/;"	f	class:EfcFlash
+~Flash	Flash.h	/^    virtual ~Flash() {}$/;"	f	class:Flash
+~FlashFactory	FlashFactory.cpp	/^FlashFactory::~FlashFactory()$/;"	f	class:FlashFactory
+~Flasher	Flasher.h	/^    virtual ~Flasher() {}$/;"	f	class:Flasher
+~InfoDialog	BossaForm.cpp	/^InfoDialog::~InfoDialog()$/;"	f	class:InfoDialog
+~LinuxPortFactory	LinuxPortFactory.cpp	/^LinuxPortFactory::~LinuxPortFactory()$/;"	f	class:LinuxPortFactory
+~MainFrame	BossaForm.cpp	/^MainFrame::~MainFrame()$/;"	f	class:MainFrame
+~OSXPortFactory	OSXPortFactory.cpp	/^OSXPortFactory::~OSXPortFactory()$/;"	f	class:OSXPortFactory
+~PortFactoryBase	PortFactory.h	/^    virtual ~PortFactoryBase() {}$/;"	f	class:PortFactoryBase
+~PosixSerialPort	PosixSerialPort.cpp	/^PosixSerialPort::~PosixSerialPort()$/;"	f	class:PosixSerialPort
+~ProgressDialog	BossaForm.cpp	/^ProgressDialog::~ProgressDialog()$/;"	f	class:ProgressDialog
+~Samba	Samba.cpp	/^Samba::~Samba()$/;"	f	class:Samba
+~SerialPort	SerialPort.h	/^    virtual ~SerialPort() {}$/;"	f	class:SerialPort
+~Shell	Shell.cpp	/^Shell::~Shell()$/;"	f	class:Shell
+~WinPortFactory	WinPortFactory.cpp	/^WinPortFactory::~WinPortFactory()$/;"	f	class:WinPortFactory
+~WinSerialPort	WinSerialPort.cpp	/^WinSerialPort::~WinSerialPort()$/;"	f	class:WinSerialPort
+~WordCopyApplet	WordCopyApplet.cpp	/^WordCopyApplet::~WordCopyApplet()$/;"	f	class:WordCopyApplet

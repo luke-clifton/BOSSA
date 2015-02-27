@@ -33,6 +33,7 @@
 #include <exception>
 
 #include "Flash.h"
+#include "FlashApplet.h"
 
 class FlashCALW : public Flash
 {
@@ -49,6 +50,8 @@ public:
              bool canBootFlash);
     virtual ~FlashCALW();
 
+    uint16_t appStartPage() { return 32; }
+    
     void eraseAll();
     void eraseAuto(bool enable);
 
@@ -71,11 +74,16 @@ public:
     void setBootFlash(bool enable);
     bool canBootFlash() { return _canBootFlash; }
 
+    void loadBuffer(const uint8_t* data, uint16_t size);
+
     void writePage(uint32_t page);
     void readPage(uint32_t page, uint8_t* data);
 
+
+
 private:
     bool _canBootFlash;
+    FlashApplet _flashApplet;
 
     void waitFRDY();
     void writeFCMD(uint8_t cmd, uint32_t pagen);
@@ -83,6 +91,9 @@ private:
     uint32_t readFSR();
     uint32_t readFCR();
     uint32_t readFirstWord();
+
+    uint8_t _buffer[1024]; // TODO
+    uint32_t _bufferSize;
 };
 
 #endif // _FLASHCALW_H

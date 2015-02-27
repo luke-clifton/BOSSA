@@ -75,7 +75,7 @@ public:
 
     void reset(void);
 
-private:
+// private: TODO: Put me back
     bool _debug;
     bool _isUsb;
     SerialPort::Ptr _port;

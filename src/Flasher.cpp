@@ -90,7 +90,7 @@ Flasher::write(const char* filename)
         rewind(infile);
 
         numPages = (fsize + pageSize - 1) / pageSize;
-        if (numPages > _flash->numPages())
+        if (numPages > (_flash->numPages() - offset))
             throw FileSizeError();
 
         printf("Write %ld bytes to flash\n", fsize);

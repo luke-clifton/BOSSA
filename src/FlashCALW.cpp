@@ -31,6 +31,7 @@
 #include <assert.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <cstring>
 
 #define FCALW_KEY         0x5a
 
@@ -71,11 +72,13 @@ FlashCALW::FlashCALW(Samba& samba,
                    uint32_t stack,
                    bool canBootFlash)
     : Flash(samba, name, addr, pages, size, planes, lockRegions, user, stack),
-      _canBootFlash(canBootFlash)
+      _canBootFlash(canBootFlash), _flashApplet(samba)
 {
     assert(planes == 1);
     assert(pages <= 1024);
     assert(lockRegions <= 32);
+
+    _flashApplet.init(&pages, &size, &lockRegions);
 }
 
 FlashCALW::~FlashCALW()
@@ -85,8 +88,10 @@ FlashCALW::~FlashCALW()
 void
 FlashCALW::eraseAll()
 {
-    waitFRDY();
-    writeFCMD(FCALW_FCMD_EA, 0);
+    for (uint32_t i = appStartPage(); i < _pages; i++)
+    {
+        _flashApplet.erase(i);
+    }
 }
 
 void
@@ -98,24 +103,27 @@ FlashCALW::eraseAuto(bool enable)
 bool
 FlashCALW::isLocked()
 {
-    if ((readFSR() & (0xffff << 16)) != 0)
-        return true;
-
+//    if ((readFSR() & (0xffff << 16)) != 0)
+//        return true;
+//
     return false;
 }
 
 bool
 FlashCALW::getLockRegion(uint32_t region)
 {
-    if (region >= _lockRegions)
-        throw FlashRegionError();
+//    if (region >= _lockRegions)
+//        throw FlashRegionError();
 
-    return (readFSR() & (1 << (16 + region)));
+//    return (readFSR() & (1 << (16 + region)));
+    return 0;
 }
 
 void
 FlashCALW::setLockRegion(uint32_t region, bool enable)
 {
+    _flashApplet.setLockRegion(region, enable);
+    /*
     uint32_t page;
 
     if (region >= _lockRegions)
@@ -126,20 +134,21 @@ FlashCALW::setLockRegion(uint32_t region, bool enable)
         page = region * _pages / _lockRegions;
         waitFRDY();
         writeFCMD(enable ? FCALW_FCMD_LP : FCALW_FCMD_UP, page);
-    }
+    }*/
 }
 
 bool
 FlashCALW::getSecurity()
 {
-    return (readFSR() & (1 << 4));
+    //return (readFSR() & (1 << 4));
+    return false;
 }
 
 void
 FlashCALW::setSecurity()
 {
-    waitFRDY();
-    writeFCMD(FCALW_FCMD_SSB, 0);
+ //   waitFRDY();
+ //   writeFCMD(FCALW_FCMD_SSB, 0);
 }
 
 bool
@@ -195,17 +204,25 @@ FlashCALW::setBootFlash(bool enable)
 }
 
 void
+FlashCALW::loadBuffer(const uint8_t* data, uint16_t size)
+{
+    assert(size);
+    assert(data);
+    assert(size < 1024); // TODO
+    _bufferSize = size;
+    memcpy(_buffer, data, size);
+    printf("Loaded buffer with %u (%u) bytes\n", _bufferSize, size);
+}
+void
 FlashCALW::writePage(uint32_t page)
 {
+    assert(_bufferSize);
+    assert(_bufferSize <= _size);
     if (page >= _pages)
         throw FlashPageError();
 
-    _wordCopy.setDstAddr(_addr + page * _size);
-    _wordCopy.setSrcAddr(_onBufferA ? _pageBufferA : _pageBufferB);
-    _onBufferA = !_onBufferA;
-    waitFRDY();
-    _wordCopy.run();
-    writeFCMD(FCALW_FCMD_WP, page);
+
+    _flashApplet.write(_addr + page * _size, _buffer, _bufferSize);
 }
 
 void
@@ -214,14 +231,14 @@ FlashCALW::readPage(uint32_t page, uint8_t* data)
     if (page >= _pages)
         throw FlashPageError();
 
-    waitFRDY();
-    _samba.read(_addr + page * _size, data, _size);
+//    waitFRDY();
+//    _samba.read(_addr + page * _size, data, _size);
 }
 
 void
 FlashCALW::waitFRDY()
 {
-    uint32_t tries = 0;
+/*    uint32_t tries = 0;
     uint32_t fsr;
 
     while (++tries <= 500)
@@ -230,9 +247,6 @@ FlashCALW::waitFRDY()
         if (fsr & (1 << 2))
             throw FlashLockError();
 
-        if (fsr & (1 << 3))
-            throw FlashCmdError();
-
         if (fsr & 1)
             break;
         usleep(100);
@@ -240,7 +254,7 @@ FlashCALW::waitFRDY()
 
     if (tries > 500)
         throw FlashCmdError();
-
+*/
 }
 
 uint32_t

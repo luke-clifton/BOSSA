@@ -33,6 +33,7 @@
 #include <stdint.h>
 #include <ctype.h>
 #include <unistd.h>
+#include <cassert>
 
 using namespace std;
 
@@ -406,7 +407,10 @@ Samba::writeXmodem(const uint8_t* buffer, int size)
             break;
     }
     if (retries == MAX_RETRIES)
+    {
+        puts("Start timed out");
         throw SambaError();
+    }
 
     while (size > 0)
     {
@@ -422,14 +426,20 @@ Samba::writeXmodem(const uint8_t* buffer, int size)
         {
             bytes = _port->write(blk, sizeof(blk));
             if (bytes != sizeof(blk))
+            {
+                puts("Write 1 timed out");
                 throw SambaError();
+            }
 
             if (_port->get() == ACK)
                 break;
         }
 
         if (retries == MAX_RETRIES)
+        {
+            puts("Write 2 timed out");
             throw SambaError();
+        }
 
         buffer += BLK_SIZE;
         size -= BLK_SIZE;
@@ -443,7 +453,10 @@ Samba::writeXmodem(const uint8_t* buffer, int size)
             break;
     }
     if (retries == MAX_RETRIES)
+    {
+        puts("EOT retries reached");
         throw SambaError();
+    }
 }
 
 void
@@ -494,10 +507,13 @@ Samba::write(uint32_t addr, const uint8_t* buffer, int size)
 {
     uint8_t cmd[20];
 
+    assert(size);
+
     if (_debug)
         printf("%s(addr=%#x,size=%#x)\n", __FUNCTION__, addr, size);
 
     snprintf((char*) cmd, sizeof(cmd), "S%08X,%08X#", addr, size);
+    puts((char*)cmd);
     if (_port->write(cmd, sizeof(cmd) - 1) != sizeof(cmd) - 1)
         throw SambaError();
 
@@ -510,10 +526,12 @@ Samba::write(uint32_t addr, const uint8_t* buffer, int size)
     if (_isUsb)
     {
         _port->flush();
+        printf("writeBinary\n");
         writeBinary(buffer, size);
     }
     else
     {
+        printf("writeXmodem\n");
         writeXmodem(buffer, size);
     }
 }

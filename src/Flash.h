@@ -138,7 +138,7 @@ protected:
     uint32_t _planes;
     uint32_t _lockRegions;
     uint32_t _user;
-    WordCopyApplet _wordCopy;
+    //WordCopyApplet _wordCopy;
 
     bool _onBufferA;
     uint32_t _pageBufferA;
